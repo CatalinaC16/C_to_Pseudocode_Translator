@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main(void) 
+{
+    int varsta=22;
+    int perioada=0;
+    for(i=1;i<=M;i++){
+    	do{
+	    if(i>50){
+	     	perioada=8;
+	    }
+	    else if(i>20){
+	     	perioada=5;
+	    }
+	    else{
+	     	perioada=3;
+	    }
+	    i-=1;
+	  }while(i>15);  
+    }  
+}

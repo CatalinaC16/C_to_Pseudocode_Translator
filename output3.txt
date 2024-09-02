@@ -1,0 +1,8 @@
+#FUNCTIE main 
+	i=0
+	CAT TIMP i<10
+		AFISEAZA i
+		i=i+1
+			SFARSIT CAT TIMP
+SFARSIT FUNCTIE main
+

@@ -1,0 +1,35 @@
+#FUNCTIE main 
+	x=0
+	y=1
+	z=y
+	F=1
+	str='c'
+	CITESTE M
+	PENTRU i ← 1, M EXECUTA
+	
+		CITESTE M2
+		PENTRU j ← 1, M2 EXECUTA
+			DACA M < 0 ATUNCI
+				F=-1
+				i=MAX+1
+							ALTFEL DACA MAX < 10 ATUNCI
+				F=F mul i
+							ALTFEL F=0
+				i=MAX+1
+			SFARSIT DACA
+		SFARSIT PENTRU
+	SFARSIT PENTRU
+	k=0
+	CAT TIMP k<M2
+		AFISEAZA k
+		k=k+1
+		AFISEAZA Factorial
+			SFARSIT CAT TIMP
+	a=multFunc a b
+SFARSIT FUNCTIE main
+
+FUNCTIE multFunc x y
+	auxMul=x mul y
+	multFunc=auxMul
+SFARSIT FUNCTIE multFunc
+

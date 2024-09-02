@@ -1,0 +1,19 @@
+#FUNCTIE main 
+	a=2
+	b=3
+	mins=7
+	character='c'
+	adun=a+b
+	adun+=1
+	mins-=1
+	character=character+2
+	modval=calcModulo adun
+	AFISEAZA modval
+	AFISEAZA adun
+SFARSIT FUNCTIE main
+
+FUNCTIE calcModulo x
+	m=x mod y
+	return calcModulo=m
+SFARSIT FUNCTIE calcModulo
+

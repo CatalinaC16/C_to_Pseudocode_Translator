@@ -1,0 +1,17 @@
+#FUNCTIE main 
+	varsta=22
+	perioada=0
+	PENTRU i ← 1, M EXECUTA
+		REPETA
+			DACA i > 50 ATUNCI
+				perioada=8
+							ALTFEL DACA i > 20 ATUNCI
+				perioada=5
+							ALTFEL perioada=3
+			SFARSIT DACA
+			i-=1
+					CAT TIMP i>15
+					SFARSIT REPETA
+	SFARSIT PENTRU
+SFARSIT FUNCTIE main
+

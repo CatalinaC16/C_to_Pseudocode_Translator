@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+void main(void)
+{
+    int a=2,b=3,adun;
+    int mins=7;
+    char character='c';    
+
+    adun=a+b; 
+    adun+=1;
+    mins-=1; 
+   
+    character=character+2;
+    modval=calcModulo(adun);
+    
+    printf("%d",modval);
+    printf("%d",adun);
+}
+
+int calcModulo(int x)
+{
+    int m;
+    m=x%y;
+    return calcModulo(m);
+}
+
